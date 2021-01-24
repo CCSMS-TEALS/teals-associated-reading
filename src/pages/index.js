@@ -8,32 +8,32 @@ import styles from './styles.module.css';
 
 const features = [
   {
-    title: 'Easy to Use',
-    imageUrl: 'img/undraw_docusaurus_mountain.svg',
+    title: 'Abridged from Original',
+    imageUrl: 'img/undraw_education.svg',
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        This contens on this website are a direct copy of what is provided by TEALS.
+        TEALS adapted their version from the book 'Think Python - How to Think Like a Computer Scientist by Allen B. Downey'.
+        The original version can be found <a link target="_blank" href="http://greenteapress.com/thinkpython/html/index.html">here</a>.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    imageUrl: 'img/undraw_docusaurus_tree.svg',
+    title: 'MIT license with CC',
+    imageUrl: 'img/undraw_open_source.svg',
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        The orignal book was released under Creative Commons, the TEALS adaption is under MIT Licensing
+        and in turn this website is licensed under MIT license as well. 
       </>
     ),
   },
   {
-    title: 'Powered by React',
-    imageUrl: 'img/undraw_docusaurus_react.svg',
+    title: 'Happy Hacking',
+    imageUrl: 'img/undraw_hacker_mindset.svg',
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Use these docs to supercharge your Python understanding allowing for a future of happy hacking!
       </>
     ),
   },
