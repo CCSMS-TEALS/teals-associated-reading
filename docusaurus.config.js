@@ -1,8 +1,8 @@
 module.exports = {
   title: 'Think Python - Abridged',
   tagline: 'Abridged Adaptation of "Think Python by Allen Downey"',
-  url: 'https://CCSMS-TEALS.github.io/teals-associated-reading/',
-  baseUrl: '/',
+  url: 'https://CCSMS-TEALS.github.io',
+  baseUrl: '/teals-associated-reading/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
