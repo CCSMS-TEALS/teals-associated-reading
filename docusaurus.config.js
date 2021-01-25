@@ -1,20 +1,20 @@
 module.exports = {
   title: 'Think Python - Abridged',
   tagline: 'Abridged Adaptation of "Think Python by Allen Downey"',
-  url: 'https://your-docusaurus-test-site.com',
+  url: 'https://CCSMS-TEALS.github.io/teals-associated-reading/',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'ccsms-teals', // Usually your GitHub org/user name.
+  organizationName: 'CCSMS-TEALS', // Usually your GitHub org/user name.
   projectName: 'teals-associated-reading', // Usually your repo name.
   themeConfig: {
     navbar: {
       title: 'TEALS Associated Reading',
-      // logo: {
-      //   alt: 'My Site Logo',
-      //   src: 'img/logo.svg',
-      // },
+      logo: {
+        alt: 'TEALS Logo',
+        src: 'img/favicon.ico',
+      },
       items: [
         {
           to: 'docs/',
