@@ -23,7 +23,7 @@ const features = [
     imageUrl: 'img/undraw_open_source.svg',
     description: (
       <>
-        The orignal book was released under Creative Commons, the TEALS adaption is under MIT Licensing
+        The original book was released under Creative Commons, the TEALS adaption is under MIT Licensing
         and in turn this website is licensed under MIT license as well. 
       </>
     ),
