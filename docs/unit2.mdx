@@ -268,9 +268,12 @@ Unlike strings, lists are mutable. When the bracket operator appears on the left
 ```
 The element at index 1, which used to be `123`, is now `5`.
 
-You can think of a list as a relationship between indices and elements. This relationship is called a mapping; each index “maps to” one of the elements. 
+<CenteredDiv>
+  <img alt="Figure 10.1 - A depiction of how indices map to list elements" src={'http://www.greenteapress.com/thinkpython/html/thinkpython013.png} />
+  <p>Figure 10.1</p>
+</CenteredDiv>
 
-List indices work the same way as string indices:
+You can think of a list as a relationship between indices and elements. This relationship is called a **mapping**; each index “maps to” one of the elements.  In figure 10.1, we can see a visual representation of mapping. Notice how each index of a list points to a corresponding element. We also see where, in our `numbers` list, the element at index 1 was changed.  The empty list has no elements at all, which also means no indices.
 
 Any integer expression can be used as an index. If you try to read or write an element that does not exist, you get an `IndexError`. If an index has a negative value, it counts backward from the end of the list:
 ```python
