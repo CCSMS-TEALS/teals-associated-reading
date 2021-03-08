@@ -1,8 +1,10 @@
+require('dotenv').config()
+
 module.exports = {
   title: 'Think Python - Abridged',
   tagline: 'Abridged Adaptation of "Think Python by Allen Downey"',
   url: 'https://CCSMS-TEALS.github.io',
-  baseUrl: '/',
+  baseUrl: process.env.PROD_BASE_URL || '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
